@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, ShieldCheck, Database, FileCheck, HeartHandshake, CheckCircle2, MapPin, Award, Car, Briefcase } from 'lucide-react';
+import { User, ShieldCheck, Database, FileCheck, HeartHandshake, CheckCircle2, MapPin, Award, Car, Briefcase, Building2, Landmark } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export default function About() {
@@ -12,7 +12,7 @@ export default function About() {
     {
       icon: Database,
       title: 'Data Integrity & Keyboarding',
-      description: 'High-volume data entry accuracy, organized records keeping, and continuous database content maintenance.',
+      description: 'High-volume database data entry accuracy, organized records keeping, and continuous data maintenance.',
     },
     {
       icon: FileCheck,
@@ -21,8 +21,8 @@ export default function About() {
     },
     {
       icon: HeartHandshake,
-      title: 'Public Service Mindset',
-      description: 'Dedicated to customer assistance, cross-functional team coordination, and timely public service delivery.',
+      title: 'Cross-Functional Collaboration',
+      description: 'Dedicated to customer assistance, team coordination, and timely operational delivery across public and private units.',
     },
   ];
 
@@ -32,8 +32,8 @@ export default function About() {
         {/* Section Header */}
         <div className="section-header">
           <span className="section-tag">About Abu Saeed</span>
-          <h2>Public Service & Administrative Professional</h2>
-          <p>Learn more about my background, civil service candidacy, and operational experience.</p>
+          <h2>Operations & Administrative Professional</h2>
+          <p>Learn more about my versatile background spanning state civil service, federal facilities, and private industry.</p>
         </div>
 
         {/* Top Grid: Bio Text & Stat Cards */}
@@ -51,7 +51,7 @@ export default function About() {
           <div className="glass-card" style={{ padding: '36px' }}>
             <h3 style={{ fontSize: '1.5rem', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '10px' }}>
               <User style={{ color: 'var(--accent-primary)' }} size={24} />
-              <span>Certified NYS 55-b Eligible Candidate</span>
+              <span>Multi-Sector Operations & Compliance Specialist</span>
             </h3>
 
             {personalInfo.bioLong.map((paragraph, index) => (
@@ -106,7 +106,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* Civil Service Key Details Card */}
+        {/* Sector Versatility Highlights Card */}
         <div
           className="glass-card"
           style={{
@@ -116,52 +116,60 @@ export default function About() {
             borderColor: 'rgba(240, 90, 40, 0.25)',
           }}
         >
-          <h3 style={{ fontSize: '1.3rem', marginBottom: '16px', color: 'var(--accent-primary)', display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <h3 style={{ fontSize: '1.3rem', marginBottom: '18px', color: 'var(--accent-primary)', display: 'flex', alignItems: 'center', gap: '8px' }}>
             <Award size={22} />
-            <span>NYS Civil Service Employment Preferences & Credentials</span>
+            <span>Employment Eligibility & Career Focus Areas</span>
           </h3>
 
           <div
             style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
               gap: '20px',
             }}
           >
-            <div>
-              <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', fontWeight: 700, textTransform: 'uppercase', marginBottom: '4px' }}>
-                Civil Service Eligibility
+            {/* NYS State Civil Service */}
+            <div style={{ background: 'var(--bg-card)', padding: '18px', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                <Landmark size={18} style={{ color: 'var(--accent-primary)' }} />
+                <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>NYS State Government</span>
               </div>
-              <div style={{ fontSize: '0.98rem', fontWeight: 600, color: 'var(--text-primary)' }}>
-                Certified NYS 55-b Program Letter of Eligibility (Issued June 10, 2026)
-              </div>
+              <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', margin: 0, lineHeight: 1.5 }}>
+                Officially Certified NYS 55-b Candidate & NYS HELPS applicant (SG 06–18: Office Assistant, Clerical, Program Aide, Operations Specialist).
+              </p>
             </div>
 
-            <div>
-              <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', fontWeight: 700, textTransform: 'uppercase', marginBottom: '4px' }}>
-                Target Positions & Salary Grades
+            {/* Federal Government */}
+            <div style={{ background: 'var(--bg-card)', padding: '18px', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                <ShieldCheck size={18} style={{ color: 'var(--accent-primary)' }} />
+                <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>Federal Public Sector</span>
               </div>
-              <div style={{ fontSize: '0.98rem', fontWeight: 600, color: 'var(--text-primary)' }}>
-                Office Assistant / Clerical / Program Aide / Operations Specialist (Salary Grade 06 - 18)
-              </div>
+              <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', margin: 0, lineHeight: 1.5 }}>
+                2+ years federal facility experience (USPS Albany). Experienced in federal SOP compliance, data privacy, and time-sensitive operations.
+              </p>
             </div>
 
-            <div>
-              <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', fontWeight: 700, textTransform: 'uppercase', marginBottom: '4px' }}>
-                Preferred Work Locations
+            {/* Private Sector & Tech */}
+            <div style={{ background: 'var(--bg-card)', padding: '18px', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                <Building2 size={18} style={{ color: 'var(--accent-primary)' }} />
+                <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>Private Sector & Tech</span>
               </div>
-              <div style={{ fontSize: '0.98rem', fontWeight: 600, color: 'var(--text-primary)' }}>
-                Schenectady, Albany, Saratoga, and Rensselaer Counties
-              </div>
+              <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', margin: 0, lineHeight: 1.5 }}>
+                Proven track record at Plug Power Inc. (Quality Control logs/spreadsheets) and CLEER Security (Web App QA testing & documentation).
+              </p>
             </div>
 
-            <div>
-              <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', fontWeight: 700, textTransform: 'uppercase', marginBottom: '4px' }}>
-                Driver License & Availability
+            {/* Locations & Credentials */}
+            <div style={{ background: 'var(--bg-card)', padding: '18px', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                <MapPin size={18} style={{ color: 'var(--accent-primary)' }} />
+                <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>Locations & Driver License</span>
               </div>
-              <div style={{ fontSize: '0.98rem', fontWeight: 600, color: 'var(--text-primary)' }}>
-                Valid NYS Class D Driver License • Available within 2 weeks
-              </div>
+              <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', margin: 0, lineHeight: 1.5 }}>
+                Schenectady, Albany, Saratoga, Rensselaer & Remote/Hybrid. Valid NYS Class D Driver License. US Work Authorized.
+              </p>
             </div>
           </div>
         </div>

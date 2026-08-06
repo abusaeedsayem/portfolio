@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, Mail, Sparkles, FileText, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Mail, Sparkles, FileText, CheckCircle2, ShieldCheck, Briefcase } from 'lucide-react';
 import { GithubIcon, LinkedinIcon, TwitterIcon } from './SocialIcons';
 import { personalInfo, typewriterRoles } from '../data/portfolioData';
 
@@ -53,9 +53,9 @@ export default function Hero() {
           }}
           className="hero-grid"
         >
-          {/* Left Column: Headline & Intro (Matching Sample Reference Screenshot) */}
+          {/* Left Column */}
           <div>
-            {/* Top Pill Badge (Matching Sample Badge with Sparkle Icon) */}
+            {/* Top Pill Badge */}
             <div
               className="badge-pill"
               style={{
@@ -65,10 +65,10 @@ export default function Hero() {
               }}
             >
               <Sparkles size={16} style={{ color: 'var(--accent-primary)' }} />
-              <span>Certified NYS 55-b Candidate • Public Service Operations</span>
+              <span>Operations Specialist • NYS HELPS & 55-b Eligible Candidate</span>
             </div>
 
-            {/* Giant Headline with Underline Highlight (Exact Style of Screenshot) */}
+            {/* Giant Headline with Underline Highlight */}
             <h1
               style={{
                 fontSize: '3.8rem',
@@ -80,7 +80,7 @@ export default function Hero() {
               }}
               className="hero-title"
             >
-              Public service is a{' '}
+              Operations & records is a{' '}
               <span className="underline-highlight">growth system.</span>
             </h1>
 
@@ -109,7 +109,7 @@ export default function Hero() {
               />
             </div>
 
-            {/* Introductory Bio Paragraph (Matching Sample Tone & Structure) */}
+            {/* Introductory Bio Paragraph */}
             <p
               style={{
                 fontSize: '1.2rem',
@@ -120,11 +120,11 @@ export default function Hero() {
                 fontWeight: 400,
               }}
             >
-              I build structured operational workflows and records management systems that compound—driving data accuracy, compliance, and measurable public sector results.{' '}
-              <strong style={{ color: 'var(--text-primary)', fontWeight: 700 }}>Strict confidentiality. Absolute policy adherence.</strong>
+              I build structured administrative workflows, QA tracking systems, and records management operations that compound—driving data accuracy, compliance, and measurable results across{' '}
+              <strong style={{ color: 'var(--text-primary)', fontWeight: 700 }}>State, Federal, and Private sector organizations.</strong>
             </p>
 
-            {/* Action Buttons (Matching Primary Orange Pill & White Pill from sample screenshot) */}
+            {/* Action Buttons */}
             <div
               style={{
                 display: 'flex',
@@ -134,7 +134,7 @@ export default function Hero() {
               }}
             >
               <a href="#projects" className="btn-primary">
-                <span>View Operations Work</span>
+                <span>View Case Studies</span>
                 <ArrowRight size={18} />
               </a>
 
@@ -221,18 +221,18 @@ export default function Hero() {
                     color: 'var(--accent-primary)',
                   }}
                 >
-                  <ShieldCheck size={26} />
+                  <Briefcase size={26} />
                 </div>
                 <div>
-                  <h3 style={{ fontSize: '1.25rem', margin: 0 }}>NYS 55-b Certified</h3>
+                  <h3 style={{ fontSize: '1.25rem', margin: 0 }}>Cross-Sector Operations</h3>
                   <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', margin: 0 }}>
-                    Official Civil Service Eligibility
+                    NYS HELPS / 55-b • Federal & Private Sector
                   </p>
                 </div>
               </div>
 
               <p style={{ fontSize: '0.98rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '24px' }}>
-                Qualified candidate with specialized experience in US Postal Service operations, Plug Power manufacturing quality logs, and public sector administrative compliance.
+                Proven expertise across federal postal facilities (USPS Albany), renewable tech manufacturing logs (Plug Power Inc.), private software QA (CLEER Security), and NYS civil service qualifications.
               </p>
 
               {/* Stat Matrix Grid */}
@@ -255,7 +255,7 @@ export default function Hero() {
                       border: '1px solid var(--border-color)',
                     }}
                   >
-                    <div style={{ fontSize: '1.6rem', fontWeight: 800, color: 'var(--accent-primary)', fontFamily: 'var(--font-heading)' }}>
+                    <div style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--accent-primary)', fontFamily: 'var(--font-heading)' }}>
                       {stat.value}
                     </div>
                     <div style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
