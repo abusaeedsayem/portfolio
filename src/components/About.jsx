@@ -172,14 +172,14 @@ export default function About() {
               </p>
             </div>
 
-            {/* Locations & Credentials */}
+            {/* Locations */}
             <div style={{ background: 'var(--bg-card)', padding: '18px', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                 <MapPin size={18} style={{ color: 'var(--accent-primary)' }} />
-                <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>Locations & Driver License</span>
+                <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>Locations</span>
               </div>
               <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', margin: 0, lineHeight: 1.5 }}>
-                Schenectady, Albany, Saratoga, Rensselaer & Remote/Hybrid. Valid NYS Class D Driver License. US Work Authorized.
+                Schenectady, Albany, Saratoga, Rensselaer & Remote/Hybrid. US Work Authorized.
               </p>
             </div>
           </div>

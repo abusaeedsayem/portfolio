@@ -17,7 +17,6 @@ export const personalInfo = {
   civilServiceStatus: "Officially Certified NYS 55-b Eligible Candidate (NYS Civil Service Law Section 55-b) & NYS HELPS Applicant. Official NYS 55-b Letter of Eligibility available directly upon request.",
   desiredPositions: "Operations Specialist / Administrative Support / Office Assistant / Clerical / Program Aide / QA Specialist (Salary Grade 09 to 18 & Private Equivalents)",
   desiredLocations: ["Schenectady", "Albany", "Saratoga", "Rensselaer", "Remote / Hybrid"],
-  driverLicense: "Valid NYS Class D Driver License",
   workAuthorization: "Legally authorized to work in the US (No visa sponsorship required)",
   totalUsExperienceMonths: 65, // 5+ Years Cumulative US Work Experience
   bioShort: "Detail-oriented operations, records management, and QA administrative specialist with over 5 years of US work experience spanning federal facilities, private tech manufacturing, and digital research platforms.",
