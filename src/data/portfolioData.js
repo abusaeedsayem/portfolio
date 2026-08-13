@@ -29,7 +29,7 @@ export const personalInfo = {
   eligibilityRequestEmail: "mailto:asaeedmsayem@gmail.com?subject=Request%20for%20NYS%2055-b%20Eligibility%20Letter",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/abusaeedsayem",
-    github: "https://github.com",
+    github: "https://github.com/abusaeedsayem",
     twitter: "https://twitter.com",
     email: "mailto:asaeedmsayem@gmail.com"
   },
@@ -101,7 +101,7 @@ export const projects = [
     featured: true,
     imageColor: "linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)",
     tags: ["Federal Public Sector", "USPS Albany", "Database Data Entry", "Records Keeping", "Data Privacy"],
-    githubUrl: "",
+    githubUrl: "https://github.com/abusaeedsayem",
     liveUrl: personalInfo.socialLinks.linkedin,
     metrics: ["1 Yr 11 Mos PSE + 2 Mos MHA", "100% Privacy Adherence", "SDO Supervised"],
     architecture: [
@@ -119,7 +119,7 @@ export const projects = [
     featured: true,
     imageColor: "linear-gradient(135deg, #059669 0%, #10b981 100%)",
     tags: ["Private Industry", "Plug Power Inc.", "Excel Test Spreadsheets", "Quality Control", "Inventory Logs"],
-    githubUrl: "",
+    githubUrl: "https://github.com/abusaeedsayem",
     liveUrl: personalInfo.socialLinks.linkedin,
     metrics: ["11 Months US Experience", "Raw Material Tracking", "Corporate Safety SOPs"],
     architecture: [
@@ -137,7 +137,7 @@ export const projects = [
     featured: true,
     imageColor: "linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)",
     tags: ["Private Tech", "CLEER Security", "QA Testing", "Technical Issue Logs", "Project Records"],
-    githubUrl: "",
+    githubUrl: "https://github.com/abusaeedsayem",
     liveUrl: personalInfo.socialLinks.linkedin,
     metrics: ["3 Months US Experience", "Bug Resolution Logs", "Head of Eng Supervised"],
     architecture: [
@@ -154,7 +154,7 @@ export const projects = [
     featured: false,
     imageColor: "linear-gradient(135deg, #f05a28 0%, #ff7d52 100%)",
     tags: ["AI Research Tools", "Structured Documentation", "Publishing Workflows", "Bilingual"],
-    githubUrl: "",
+    githubUrl: "https://github.com/abusaeedsayem",
     liveUrl: personalInfo.socialLinks.linkedin,
     metrics: ["2 Yrs 3 Mos US Experience", "Publishing Schedules", "Bilingual Communication"],
     architecture: [
