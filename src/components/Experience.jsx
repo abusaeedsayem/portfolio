@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Briefcase, GraduationCap, Calendar, MapPin, CheckCircle2, Award } from 'lucide-react';
+import { Briefcase, GraduationCap, Calendar, MapPin, CheckCircle2, Award, Flag, ShieldCheck } from 'lucide-react';
 import { experience } from '../data/portfolioData';
 
 export default function Experience() {
@@ -21,7 +21,49 @@ export default function Experience() {
         <div className="section-header">
           <span className="section-tag">Career History</span>
           <h2>Work Experience & Education</h2>
-          <p>My professional trajectory across public service, technical operations, and education.</p>
+          <p>Over 5 years of US-based operational experience across federal facilities, private tech manufacturing, and digital systems administration.</p>
+        </div>
+
+        {/* US Experience Highlight Banner */}
+        <div
+          className="glass-card"
+          style={{
+            maxWidth: '850px',
+            margin: '0 auto 36px auto',
+            padding: '16px 24px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '16px',
+            background: 'var(--bg-pill-active)',
+            borderColor: 'rgba(240, 90, 40, 0.25)',
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <Flag size={20} style={{ color: 'var(--accent-primary)', flexShrink: 0 }} />
+            <div>
+              <span style={{ fontSize: '0.94rem', fontWeight: 800, color: 'var(--text-primary)' }}>
+                100% United States Employment History
+              </span>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', margin: 0 }}>
+                Over 5 cumulative years (65+ months) of US work experience in high-volume, regulated environments.
+              </p>
+            </div>
+          </div>
+
+          <span
+            style={{
+              padding: '6px 14px',
+              borderRadius: 'var(--radius-full)',
+              background: 'var(--accent-primary)',
+              color: '#ffffff',
+              fontSize: '0.82rem',
+              fontWeight: 700,
+              whiteSpace: 'nowrap',
+            }}
+          >
+            5+ Years US Exp
+          </span>
         </div>
 
         {/* Filter Toggle */}
@@ -35,7 +77,7 @@ export default function Experience() {
         >
           {[
             { id: 'all', label: 'All Experience' },
-            { id: 'work', label: 'Work History' },
+            { id: 'work', label: 'US Work History' },
             { id: 'education', label: 'Education & Certifications' },
           ].map((type) => {
             const isActive = filterType === type.id;
