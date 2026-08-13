@@ -7,19 +7,19 @@ export const personalInfo = {
   displayName: "Abu Saeed Sayem",
   aliases: ["Abu Saeed Sayem", "Abu Saeed Muhammad Sayem"],
   title: "Operations, Records & Administrative Specialist",
-  subTitle: "Certified NYS HELPS / 55-b Eligible Candidate",
+  subTitle: "Certified NYS HELPS / 55-b Eligible Candidate • US Citizen",
   location: "Schenectady, NY (Capital District)",
   fullAddress: "1275 Gerling Street, Apt 8C3, Schenectady, NY 12308",
   county: "Schenectady County",
   email: "asaeedmsayem@gmail.com",
   phone: "(518) 707-8201",
   availability: "Open to NYS Civil Service (HELPS & 55-b), Federal & Private Sector Roles",
-  civilServiceStatus: "Officially Certified NYS 55-b Eligible Candidate (NYS Civil Service Law Section 55-b) & NYS HELPS Applicant. Official NYS 55-b Letter of Eligibility available directly upon request.",
+  citizenshipStatus: "United States Citizen (US Citizen)",
+  civilServiceStatus: "Officially Certified NYS 55-b Eligible Candidate (NYS Civil Service Law Section 55-b) & NYS HELPS Applicant. US Citizen. Official NYS 55-b Letter of Eligibility available directly upon request.",
   desiredPositions: "Operations Specialist / Administrative Support / Office Assistant / Clerical / Program Aide / QA Specialist (Salary Grade 09 to 18 & Private Equivalents)",
   desiredLocations: ["Schenectady", "Albany", "Saratoga", "Rensselaer", "Remote / Hybrid"],
-  workAuthorization: "Legally authorized to work in the US (No visa sponsorship required)",
   totalUsExperienceMonths: 65, // 5+ Years Cumulative US Work Experience
-  bioShort: "Detail-oriented operations, records management, and QA administrative specialist with over 5 years of US work experience spanning federal facilities, private tech manufacturing, and digital research platforms.",
+  bioShort: "Detail-oriented operations, records management, and QA administrative specialist with over 5 years of US work experience spanning federal facilities, private tech manufacturing, and digital research platforms. US Citizen.",
   bioLong: [
     "I am an accomplished operations and administrative specialist with over 5 years of US-based work experience in high-volume database data entry, records management, strict SOP compliance, and quality assurance across public and private sector environments.",
     "Holding an International Diploma in Computer Studies (Business System Development, NCC Education UK) and a Master of Business Administration (MBA in Finance, Asian University of Bangladesh), I combine technical system literacy, financial analysis skills, and high-precision document workflow execution.",
@@ -43,7 +43,7 @@ export const personalInfo = {
 
 export const typewriterRoles = [
   "Operations & Administrative Specialist",
-  "NYS HELPS & 55-b Eligible Candidate",
+  "NYS HELPS & 55-b Eligible Candidate (US Citizen)",
   "Records Management & Keyboarding Pro",
   "Quality Assurance & Systems Specialist",
   "Open to State, Federal & Private Sector Roles"

@@ -146,7 +146,7 @@ export default function About() {
                 <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>NYS State Government</span>
               </div>
               <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', margin: 0, lineHeight: 1.5 }}>
-                Officially Certified NYS 55-b Candidate & NYS HELPS applicant (SG 09–18). Official NYS 55-b Letter of Eligibility available directly upon request.
+                Officially Certified NYS 55-b Candidate & NYS HELPS applicant (SG 09–18) • US Citizen. Official NYS 55-b Letter of Eligibility available directly upon request.
               </p>
             </div>
 
@@ -172,14 +172,14 @@ export default function About() {
               </p>
             </div>
 
-            {/* Locations */}
+            {/* Preferred Locations */}
             <div style={{ background: 'var(--bg-card)', padding: '18px', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                 <MapPin size={18} style={{ color: 'var(--accent-primary)' }} />
-                <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>Locations</span>
+                <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>Preferred Locations</span>
               </div>
               <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', margin: 0, lineHeight: 1.5 }}>
-                Schenectady, Albany, Saratoga, Rensselaer & Remote/Hybrid. US Work Authorized.
+                Primary focus on Capital Region opportunities in Schenectady, Albany, Saratoga, and Rensselaer Counties, as well as Remote and Hybrid roles.
               </p>
             </div>
           </div>
