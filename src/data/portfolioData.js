@@ -1,6 +1,5 @@
-// Versatile Professional Portfolio Data for Abu Saeed Mohammad Sayem
-// Sourced from NYS Application Form #S1000 and Official Resume.
-// Positioned for NYS HELPS / 55-b, Federal Public Sector, and Private Sector Opportunities.
+// Master Portfolio Configuration Data for Abu Saeed Mohammad Sayem
+// Sourced from NYS Application Form #S1000, Official Resume, NYS 55-b Letter, and LinkedIn Profile.
 
 export const personalInfo = {
   name: "Abu Saeed Mohammad Sayem",
@@ -19,10 +18,10 @@ export const personalInfo = {
   desiredLocations: ["Schenectady", "Albany", "Saratoga", "Rensselaer", "Remote / Hybrid"],
   driverLicense: "Valid NYS Class D Driver License",
   workAuthorization: "Legally authorized to work in the US (No visa sponsorship required)",
-  bioShort: "Detail-oriented operations, records management, and QA administrative specialist with extensive experience across federal facilities, private tech manufacturing, and digital research platforms.",
+  bioShort: "Detail-oriented operations, records management, and QA administrative specialist with over 11+ years of cumulative professional, systems instruction, and public sector experience.",
   bioLong: [
-    "I am an accomplished operations and administrative specialist with a strong background in high-volume database data entry, records management, strict SOP compliance, and quality assurance across public and private sector environments.",
-    "Holding an International Diploma in Computer Studies (Business System Development, NCC Education UK) and a Master of Business Administration (MBA in Finance, Asian University of Bangladesh), I combine technical system literacy, financial analysis skills, and high-precision document workflow execution.",
+    "I am an accomplished operations and administrative specialist with a strong background in high-volume database data entry, records management, strict SOP compliance, and quality assurance across public, corporate, and instructional environments.",
+    "Holding an International Diploma in Computer Studies (Business System Development, NCC Education UK) and a Master of Business Administration (MBA in Finance, Asian University of Bangladesh), I combine technical software literacy, financial analysis skills, and high-precision document workflow execution.",
     "While officially certified under the NYS 55-b Program and actively interested in NYS HELPS civil service positions, I am equally versatile and open to Federal Government opportunities and private sector corporate & tech operations roles across the Capital Region and beyond."
   ],
   resumeUrl: "/resume.pdf",
@@ -34,9 +33,9 @@ export const personalInfo = {
     email: "mailto:asaeedmsayem@gmail.com"
   },
   stats: [
-    { label: "Cross-Sector Experience", value: "4+ Yrs" },
+    { label: "Total Professional Experience", value: "11+ Yrs" },
+    { label: "US Operations & QA Experience", value: "4+ Yrs" },
     { label: "NYS Civil Service Status", value: "55-b Certified" },
-    { label: "Sector Versatility", value: "State, Fed & Private" },
     { label: "Language Fluency", value: "Bilingual (4)" }
   ]
 };
@@ -49,6 +48,35 @@ export const typewriterRoles = [
   "Open to State, Federal & Private Sector Roles"
 ];
 
+export const certifications = [
+  {
+    name: "NYS 55-b/c Program Letter of Eligibility",
+    issuer: "New York State Department of Civil Service",
+    date: "Issued June 10, 2026 (Expires June 10, 2029)",
+    note: "Official Letter of Eligibility available directly upon request by recruiters."
+  },
+  {
+    name: "ChatGPT Masterclass: The Guide to AI & Prompt Engineering",
+    issuer: "Professional AI Certification",
+    date: "Completed"
+  },
+  {
+    name: "SEO Training: Get Free Traffic to Your Website With SEO",
+    issuer: "Digital Marketing & Analytics Certification",
+    date: "Completed"
+  },
+  {
+    name: "Writing Formal Business Letters and Emails",
+    issuer: "Executive Communication Certification",
+    date: "Completed"
+  },
+  {
+    name: "Writing Articles & Digital Content Publishing",
+    issuer: "Content Strategy Certification",
+    date: "Completed"
+  }
+];
+
 export const skillCategories = [
   { id: "all", label: "All Skills" },
   { id: "operations", label: "Operations & Compliance" },
@@ -59,7 +87,7 @@ export const skillCategories = [
 
 export const skills = [
   // Operations & Compliance
-  { name: "Operations Administration & Support", level: 98, category: "operations", icon: "ShieldCheck" },
+  { name: "Administrative Support & Office Operations", level: 98, category: "operations", icon: "ShieldCheck" },
   { name: "High-Volume Data Entry & Keyboarding", level: 96, category: "operations", icon: "FileCode" },
   { name: "Database Maintenance & Records Keeping", level: 96, category: "operations", icon: "Database" },
   { name: "Digital Record Archiving & Confidentiality", level: 99, category: "operations", icon: "Lock" },
@@ -67,28 +95,28 @@ export const skills = [
 
   // Productivity
   { name: "Microsoft Excel (Test Logs, Charts, Graphs)", level: 94, category: "productivity", icon: "Table" },
-  { name: "Microsoft Word & Document Formatting", level: 96, category: "productivity", icon: "FileText" },
+  { name: "Microsoft Word & Formal Business Writing", level: 96, category: "productivity", icon: "FileText" },
   { name: "Google Workspace (Docs, Sheets, Drive)", level: 95, category: "productivity", icon: "Cloud" },
-  { name: "Microsoft Outlook & Calendar Systems", level: 92, category: "productivity", icon: "Calendar" },
+  { name: "Microsoft Outlook & Digital Calendars", level: 92, category: "productivity", icon: "Calendar" },
 
   // QA & Business Systems
   { name: "Quality Assurance & Web App Testing", level: 90, category: "qa_systems", icon: "CheckCircle2" },
   { name: "Quality Control Metrics Tracking", level: 94, category: "qa_systems", icon: "Zap" },
   { name: "Business System Development", level: 90, category: "qa_systems", icon: "Layers" },
-  { name: "Inventory & Raw Material Tracking", level: 92, category: "qa_systems", icon: "Box" },
+  { name: "Computer Fundamentals Instruction", level: 95, category: "qa_systems", icon: "Award" },
 
   // Languages & AI Workflows
   { name: "English & Bengali (Native/Bilingual)", level: 100, category: "languages_ai", icon: "Globe" },
   { name: "Hindi & Urdu (Proficient)", level: 85, category: "languages_ai", icon: "Globe" },
-  { name: "Content Lifecycle Management & AI Synthesis", level: 94, category: "languages_ai", icon: "Sparkles" },
-  { name: "SEO Auditing Pipelines & Script Editing", level: 92, category: "languages_ai", icon: "Brain" }
+  { name: "ChatGPT & Prompt Engineering", level: 94, category: "languages_ai", icon: "Sparkles" },
+  { name: "SEO Auditing Pipelines & Content Synthesis", level: 92, category: "languages_ai", icon: "Brain" }
 ];
 
 export const projectCategories = [
   { id: "all", label: "All Case Studies" },
   { id: "public_sector", label: "Public Sector & Federal" },
   { id: "private_sector", label: "Private Industry & Tech" },
-  { id: "ai_digital", label: "Digital Platform Operations" }
+  { id: "instructional", label: "Instructional & Systems" }
 ];
 
 export const projects = [
@@ -129,12 +157,29 @@ export const projects = [
     ]
   },
   {
+    id: "nydtc-instructional-program",
+    title: "Computer Fundamentals & Office Productivity Instructional Program",
+    category: "instructional",
+    tagline: "Delivered structured training in MS Office, basic computing, and student records management over 6+ years.",
+    description: "Served as Senior Training Instructor at the National Youth Development and Training Centre (NYDTC). Taught computer fundamentals, Microsoft Office productivity skills, structured course materials, and maintained attendance records.",
+    featured: true,
+    imageColor: "linear-gradient(135deg, #d97706 0%, #f59e0b 100%)",
+    tags: ["NYDTC", "Microsoft Office Instruction", "Records Management", "Student Administration"],
+    githubUrl: "",
+    liveUrl: personalInfo.socialLinks.linkedin,
+    metrics: ["6 Yrs 8 Mos Experience", "MS Office Instruction", "Curriculum Administration"],
+    architecture: [
+      "Structured lesson delivery in Microsoft Office Suite and basic computing principles.",
+      "Maintenance of attendance records, course materials, and student evaluation tracking."
+    ]
+  },
+  {
     id: "cleer-security-qa",
     title: "Web Application Quality Assurance & Testing Operations",
     category: "private_sector",
     tagline: "Documented technical issues, tracked resolutions, and performed QA web application testing under strict procedures.",
     description: "Served as Quality Assurance Engineer at CLEER Security, LLC (Aventura, FL). Supported web application testing under strict procedures, maintaining organized project records, tracking bug resolutions, and documenting technical issues.",
-    featured: true,
+    featured: false,
     imageColor: "linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)",
     tags: ["Private Tech", "CLEER Security", "QA Testing", "Technical Issue Logs", "Project Records"],
     githubUrl: "",
@@ -143,24 +188,6 @@ export const projects = [
     architecture: [
       "Structured testing procedures for web application features and issue tracking.",
       "Detailed project record keeping and cross-functional resolution verification."
-    ]
-  },
-  {
-    id: "digital-platform-operations",
-    title: "Digital Platform Operations & Content Lifecycle Infrastructure",
-    category: "ai_digital",
-    tagline: "Operations management, database maintenance, SEO auditing pipelines, and digital record archiving.",
-    description: "Manages digital platform operations, database maintenance, and technical publishing workflows as a self-employed operator in Schenectady, NY (June 2024 – Present). Implemented workflow standardization, content lifecycle management pipelines, automated SEO auditing, and digital record archiving across online platforms.",
-    featured: false,
-    imageColor: "linear-gradient(135deg, #f05a28 0%, #ff7d52 100%)",
-    tags: ["Database Maintenance", "Content Lifecycle Management", "SEO Auditing Pipelines", "Digital Record Archiving", "Workflow Standardization"],
-    githubUrl: "",
-    liveUrl: personalInfo.socialLinks.linkedin,
-    metrics: ["SEO Auditing Pipelines", "Workflow Standardization", "Digital Record Archiving"],
-    architecture: [
-      "Database maintenance and digital record archiving across structured online platforms.",
-      "Automated SEO auditing pipelines and content lifecycle management procedures.",
-      "Workflow standardization for technical publishing infrastructure and editorial schedules."
     ]
   }
 ];
@@ -186,7 +213,7 @@ export const experience = [
     id: "exp-1",
     role: "PSE Mail Processing Clerk",
     company: "United States Postal Service (USPS)",
-    period: "September 2022 – July 2024",
+    period: "September 2022 – July 2024 (1 yr 11 mos)",
     location: "Albany, NY (40 hrs/week)",
     type: "Work",
     description: "Processed transactions and routed exceptionally high volumes of time-sensitive official correspondence, packages, and mail within a secure, structured federal facility (30 Karner Rd). Supervised by Hirohito Chakma (SDO).",
@@ -202,7 +229,7 @@ export const experience = [
     id: "exp-2",
     role: "Mail Handler Assistant",
     company: "United States Postal Service (USPS)",
-    period: "August 2022 – September 2022",
+    period: "August 2022 – September 2022 (2 mos)",
     location: "Albany, NY (30 Karner Rd)",
     type: "Work",
     description: "Handled mailroom tasks, sorting, packaging, and organizing incoming and outgoing mail flows while maintaining strict privacy and security guidelines. Reassigned to PSE Mail Processing Clerk position.",
@@ -216,7 +243,7 @@ export const experience = [
     id: "exp-3",
     role: "Quality Assurance Engineer",
     company: "CLEER Security, LLC",
-    period: "February 2022 – April 2022",
+    period: "February 2022 – April 2022 (3 mos)",
     location: "Aventura, FL",
     type: "Work",
     description: "Documented technical issues, maintained organized project records, tracked resolutions, and supported web application testing under strict procedures. Supervised by Eric Crowe (Head of Engineering).",
@@ -230,7 +257,7 @@ export const experience = [
     id: "exp-4",
     role: "Production Technician",
     company: "Plug Power Inc.",
-    period: "March 2021 – January 2022",
+    period: "March 2021 – January 2022 (11 mos)",
     location: "Latham, NY (40 hrs/week)",
     type: "Work",
     description: "Coordinated workflows within a highly regulated technical manufacturing environment adhering strictly to corporate safety guidelines and standard operating procedures (SOPs). Supervised by Adam Cornett (Supervisor of Operations).",
@@ -243,6 +270,21 @@ export const experience = [
   },
   {
     id: "exp-5",
+    role: "Senior Training Instructor",
+    company: "National Youth Development and Training Centre (NYDTC)",
+    period: "August 2002 – March 2009 (6 yrs 8 mos)",
+    location: "Rajshahi, Bangladesh",
+    type: "Work",
+    description: "Taught computer fundamentals and office productivity skills. Delivered structured lessons in Microsoft Office Suite, prepared course materials, and maintained student attendance and evaluation records.",
+    achievements: [
+      "Delivered structured lessons in Microsoft Office (Word, Excel, Access) and basic computing for over 6+ years.",
+      "Prepared course materials, exam evaluations, and student records management.",
+      "Explained technical concepts in clear, simple language to support student learning outcomes."
+    ],
+    technologies: ["Microsoft Office Instruction", "Computer Fundamentals", "Records Administration", "Curriculum Delivery"]
+  },
+  {
+    id: "exp-6",
     role: "Certified NYS 55-b & NYS HELPS Applicant",
     company: "New York State Department of Civil Service",
     period: "Issue Date: June 10, 2026 – June 10, 2029",
@@ -257,10 +299,10 @@ export const experience = [
     technologies: ["NYS Civil Service Law 55-b", "NYS HELPS Program", "Public Sector Eligibility"]
   },
   {
-    id: "exp-6",
+    id: "exp-7",
     role: "Master of Business Administration (MBA)",
     company: "Asian University of Bangladesh",
-    period: "Graduation Year: 2009",
+    period: "April 2007 – March 2009",
     location: "Dhaka, Bangladesh",
     type: "Education",
     description: "Completed graduate degree program with concentration in Finance. Advanced study in financial management, operational strategy, and organizational decision-making.",
@@ -271,10 +313,10 @@ export const experience = [
     technologies: ["MBA Finance", "Financial Analysis", "Managerial Accounting", "Operational Strategy"]
   },
   {
-    id: "exp-7",
+    id: "exp-8",
     role: "International Diploma in Computer Studies",
     company: "NCC Education",
-    period: "Graduation Year: 2002",
+    period: "January 2000 – February 2002",
     location: "United Kingdom",
     type: "Education",
     description: "Completed vocational diploma program with concentration in Business System Development. Focused on software fundamentals, computer systems, and database logic.",
