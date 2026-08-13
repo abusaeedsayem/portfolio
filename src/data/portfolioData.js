@@ -88,7 +88,7 @@ export const projectCategories = [
   { id: "all", label: "All Case Studies" },
   { id: "public_sector", label: "Public Sector & Federal" },
   { id: "private_sector", label: "Private Industry & Tech" },
-  { id: "ai_digital", label: "Digital Platform Operations" }
+  { id: "ai_digital", label: "Digital Research Operations" }
 ];
 
 export const projects = [
@@ -146,42 +146,41 @@ export const projects = [
     ]
   },
   {
-    id: "digital-platform-operations",
-    title: "Digital Platform Operations & Content Lifecycle Infrastructure",
+    id: "digital-research-publishing",
+    title: "AI-Assisted Digital Research & Content Operations",
     category: "ai_digital",
-    tagline: "Operations management, database maintenance, SEO auditing pipelines, and digital record archiving.",
-    description: "Manages digital platform operations, database maintenance, and technical publishing workflows as a self-employed operator in Schenectady, NY (June 2024 – Present). Implemented workflow standardization, content lifecycle management pipelines, automated SEO auditing, and digital record archiving across online platforms.",
+    tagline: "Self-employed blogger and writer leveraging AI tools for in-depth research, structured drafting, and workflow scheduling.",
+    description: "Self-employed blogger & writer in Schenectady, NY (June 2024 – Present). Conducts in-depth research, drafts, edits, and publishes digital articles and structured documentation across online platforms using advanced AI tools while adhering to strict content schedules.",
     featured: false,
     imageColor: "linear-gradient(135deg, #f05a28 0%, #ff7d52 100%)",
-    tags: ["Database Maintenance", "Content Lifecycle Management", "SEO Auditing Pipelines", "Digital Record Archiving", "Workflow Standardization"],
+    tags: ["AI Research Tools", "Structured Documentation", "Publishing Workflows", "Bilingual"],
     githubUrl: "",
     liveUrl: personalInfo.socialLinks.linkedin,
-    metrics: ["2 Yrs 3 Mos US Experience", "Workflow Standardization", "Digital Record Archiving"],
+    metrics: ["2 Yrs 3 Mos US Experience", "Publishing Schedules", "Bilingual Communication"],
     architecture: [
-      "Database maintenance and digital record archiving across structured online platforms.",
-      "Automated SEO auditing pipelines and content lifecycle management procedures.",
-      "Workflow standardization for technical publishing infrastructure and editorial schedules."
+      "Prompt engineering and AI text generation for rapid research synthesis.",
+      "Structured documentation workflows and content calendar management."
     ]
   }
 ];
 
-// EXCLUSIVELY US-BASED WORK EXPERIENCE (Strictly 100% US Jobs)
+// EXCLUSIVELY US-BASED WORK EXPERIENCE (Strictly 100% US Jobs matching Form #S1000 & LinkedIn)
 export const experience = [
   {
     id: "exp-0",
-    role: "Operations & Digital Platform Administrator",
-    company: "Self-Employed (Digital Operations)",
+    role: "Self-Employed Blogger & Writer",
+    company: "Self-Employed",
     period: "June 2024 – Present (2 years 3 months)",
     location: "Schenectady, NY, United States",
     type: "Work",
-    description: "Manage end-to-end digital publishing operations, database maintenance, and technical content workflows in Schenectady, NY. Execute content lifecycle management, SEO auditing pipelines, and digital record archiving while adhering to standardized publishing schedules.",
+    description: "Conduct in-depth research, draft, edit, and publish digital articles and structured documentation across online platforms. Maintain publishing workflows, adhere to content schedules, and communicate fluently in English and Bengali.",
     achievements: [
-      "Implemented workflow standardization and content lifecycle management pipelines across multi-channel digital publishing platforms.",
-      "Executed routine database maintenance, digital record archiving, and automated SEO auditing pipelines to optimize system performance.",
-      "Utilized advanced AI research tools and data synthesis for technical documentation and publishing infrastructure.",
+      "Conduct in-depth topical research, structure written content, edit drafts, and maintain continuous digital publishing workflows.",
+      "Publish informational articles and creative narrative stories across digital platforms.",
+      "Utilize advanced AI research and text generation tools for rapid document synthesis.",
       "Open to permanent public sector (NYS HELPS / 55-b, Federal) and private sector operations roles."
     ],
-    technologies: ["Database Maintenance", "Content Lifecycle Management", "SEO Auditing Pipelines", "Digital Record Archiving", "Workflow Standardization"]
+    technologies: ["Digital Research", "Content Workflows", "AI Research Tools", "Publishing Schedules", "Bilingual Communication"]
   },
   {
     id: "exp-1",
