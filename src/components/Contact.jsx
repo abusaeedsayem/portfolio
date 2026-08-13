@@ -143,24 +143,42 @@ export default function Contact({ showToast }) {
                 Certified NYS 55-b Eligible Candidate
               </h4>
               <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.5, marginBottom: '14px' }}>
-                Qualified for New York State administrative, records management, and operational civil service appointments.
+                Qualified for New York State administrative, records management, and operational civil service appointments. Official NYS 55-b Letter of Eligibility available directly upon request.
               </p>
-              <a
-                href={personalInfo.resumeUrl}
-                target="_blank"
-                rel="noreferrer"
-                style={{
-                  fontSize: '0.88rem',
-                  fontWeight: 700,
-                  color: 'var(--accent-primary)',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                }}
-              >
-                <FileText size={16} />
-                <span>View Official Resume PDF</span>
-              </a>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                <a
+                  href={personalInfo.resumeUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    fontSize: '0.88rem',
+                    fontWeight: 700,
+                    color: 'var(--accent-primary)',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '6px',
+                  }}
+                >
+                  <FileText size={16} />
+                  <span>View Official Resume PDF</span>
+                </a>
+
+                <a
+                  href={personalInfo.eligibilityRequestEmail}
+                  style={{
+                    fontSize: '0.88rem',
+                    fontWeight: 700,
+                    color: 'var(--text-primary)',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '6px',
+                  }}
+                >
+                  <Mail size={16} />
+                  <span>Request NYS 55-b Eligibility Letter</span>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -219,7 +237,7 @@ export default function Contact({ showToast }) {
                 </label>
                 <input
                   type="text"
-                  placeholder="NYS Civil Service / Position Opportunity"
+                  placeholder="NYS Civil Service / Position Opportunity / Recruiter Inquiry"
                   value={formData.subject}
                   onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                   style={{

@@ -46,13 +46,13 @@ export default function Footer() {
                 fontWeight: 800,
                 fontFamily: 'var(--font-heading)',
                 marginBottom: '6px',
-                letterSpacing: '-0.5px',
+                letterSpacing: '-0.3px',
               }}
             >
-              AbuSaeed<span style={{ color: 'var(--accent-primary)' }}>.</span>Sayem
+              Abu Saeed<span style={{ color: 'var(--accent-primary)' }}>.</span>Sayem
             </div>
             <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-              Certified NYS 55-b Eligible Candidate • Public Service & Operations Specialist
+              Certified NYS 55-b Eligible Candidate • Operations & Administrative Specialist
             </p>
           </div>
 
@@ -117,7 +117,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {personalInfo.name}. All rights reserved.
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-            <span>Crafted with precision & care</span>
+            <span>Crafted with precision & care.</span>
             <Heart size={14} style={{ color: 'var(--accent-primary)', margin: '0 2px' }} />
           </div>
         </div>

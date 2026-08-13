@@ -54,7 +54,7 @@ export default function Navbar({ theme, toggleTheme }) {
       className={scrolled ? 'glass-nav' : ''}
     >
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-        {/* Brand / Logo (Matching Sample Logo Format e.g., Alex.Morgan) */}
+        {/* Brand / Logo */}
         <a
           href="#home"
           style={{
@@ -63,17 +63,17 @@ export default function Navbar({ theme, toggleTheme }) {
             fontFamily: 'var(--font-heading)',
             display: 'flex',
             alignItems: 'center',
-            gap: '2px',
+            gap: '3px',
             color: 'var(--text-primary)',
-            letterSpacing: '-0.5px',
+            letterSpacing: '-0.3px',
           }}
         >
-          <span>AbuSaeed</span>
+          <span>Abu Saeed</span>
           <span style={{ color: 'var(--accent-primary)' }}>.</span>
           <span>Sayem</span>
         </a>
 
-        {/* Desktop Nav Links (Matching Pill Active state from sample) */}
+        {/* Desktop Nav Links */}
         <nav
           style={{
             display: 'flex',
@@ -129,7 +129,7 @@ export default function Navbar({ theme, toggleTheme }) {
               {theme === 'dark' ? <Sun size={18} style={{ color: '#f59e0b' }} /> : <Moon size={18} style={{ color: 'var(--accent-primary)' }} />}
             </button>
 
-            {/* Navbar CTA Button (Matching "Let's Talk" Orange Pill from sample) */}
+            {/* Navbar CTA Button */}
             <a
               href="#contact"
               className="btn-primary"

@@ -4,6 +4,7 @@
 
 export const personalInfo = {
   name: "Abu Saeed Mohammad Sayem",
+  displayName: "Abu Saeed Sayem",
   aliases: ["Abu Saeed Sayem", "Abu Saeed Muhammad Sayem"],
   title: "Operations, Records & Administrative Specialist",
   subTitle: "Certified NYS HELPS / 55-b Eligible Candidate",
@@ -13,18 +14,19 @@ export const personalInfo = {
   email: "asaeedmsayem@gmail.com",
   phone: "(518) 707-8201",
   availability: "Open to NYS Civil Service (HELPS & 55-b), Federal & Private Sector Roles",
-  civilServiceStatus: "Officially Certified NYS 55-b Eligible Candidate (NYS Civil Service Law Section 55-b) & NYS HELPS Applicant. Eligibility Letter issued June 10, 2026 (Expires June 10, 2029).",
+  civilServiceStatus: "Officially Certified NYS 55-b Eligible Candidate (NYS Civil Service Law Section 55-b) & NYS HELPS Applicant. Official NYS 55-b Letter of Eligibility available directly upon request.",
   desiredPositions: "Operations Specialist / Administrative Support / Office Assistant / Program Aide / QA & Records Specialist (Salary Grade 06 to 18 & Private Equivalents)",
   desiredLocations: ["Schenectady", "Albany", "Saratoga", "Rensselaer", "Remote / Hybrid"],
   driverLicense: "Valid NYS Class D Driver License",
   workAuthorization: "Legally authorized to work in the US (No visa sponsorship required)",
-  bioShort: "Detail-oriented operations, records management, and QA administrative specialist with extensive experience across federal facilities, private tech manufacturing, and digital research.",
+  bioShort: "Detail-oriented operations, records management, and QA administrative specialist with extensive experience across federal facilities, private tech manufacturing, and digital research platforms.",
   bioLong: [
     "I am an accomplished operations and administrative specialist with a strong background in high-volume database data entry, records management, strict SOP compliance, and quality assurance across public and private sector environments.",
     "Holding an International Diploma in Computer Studies (Business System Development, NCC Education UK) and a Master of Business Administration (MBA in Finance, Asian University of Bangladesh), I combine technical system literacy, financial analysis skills, and high-precision document workflow execution.",
     "While officially certified under the NYS 55-b Program and actively interested in NYS HELPS civil service positions, I am equally versatile and open to Federal Government opportunities and private sector corporate & tech operations roles across the Capital Region and beyond."
   ],
   resumeUrl: "/resume.pdf",
+  eligibilityRequestEmail: "mailto:asaeedmsayem@gmail.com?subject=Request%20for%20NYS%2055-b%20Eligibility%20Letter",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/abusaeedsayem",
     github: "https://github.com",
@@ -59,9 +61,9 @@ export const skills = [
   // Operations & Compliance
   { name: "Operations Administration & Support", level: 98, category: "operations", icon: "ShieldCheck" },
   { name: "High-Volume Data Entry & Keyboarding", level: 96, category: "operations", icon: "FileCode" },
-  { name: "Records Keeping & Database Integrity", level: 96, category: "operations", icon: "Database" },
-  { name: "Data Privacy Protocols & Confidentiality", level: 99, category: "operations", icon: "Lock" },
-  { name: "Document Preparation & SOP Compliance", level: 95, category: "operations", icon: "Layout" },
+  { name: "Database Maintenance & Records Keeping", level: 96, category: "operations", icon: "Database" },
+  { name: "Digital Record Archiving & Confidentiality", level: 99, category: "operations", icon: "Lock" },
+  { name: "Workflow Standardization & SOP Compliance", level: 95, category: "operations", icon: "Layout" },
 
   // Productivity
   { name: "Microsoft Excel (Test Logs, Charts, Graphs)", level: 94, category: "productivity", icon: "Table" },
@@ -78,15 +80,15 @@ export const skills = [
   // Languages & AI Workflows
   { name: "English & Bengali (Native/Bilingual)", level: 100, category: "languages_ai", icon: "Globe" },
   { name: "Hindi & Urdu (Proficient)", level: 85, category: "languages_ai", icon: "Globe" },
-  { name: "AI Research & Document Synthesis", level: 94, category: "languages_ai", icon: "Sparkles" },
-  { name: "AI Prompt Engineering & Script Editing", level: 92, category: "languages_ai", icon: "Brain" }
+  { name: "Content Lifecycle Management & AI Synthesis", level: 94, category: "languages_ai", icon: "Sparkles" },
+  { name: "SEO Auditing Pipelines & Script Editing", level: 92, category: "languages_ai", icon: "Brain" }
 ];
 
 export const projectCategories = [
   { id: "all", label: "All Case Studies" },
   { id: "public_sector", label: "Public Sector & Federal" },
   { id: "private_sector", label: "Private Industry & Tech" },
-  { id: "ai_digital", label: "AI & Digital Workflows" }
+  { id: "ai_digital", label: "Digital Platform Operations" }
 ];
 
 export const projects = [
@@ -144,20 +146,21 @@ export const projects = [
     ]
   },
   {
-    id: "digital-research-publishing",
-    title: "AI-Assisted Digital Research & Content Operations",
+    id: "digital-platform-operations",
+    title: "Digital Platform Operations & Content Lifecycle Infrastructure",
     category: "ai_digital",
-    tagline: "Self-employed blogger and writer leveraging AI tools for in-depth research, structured drafting, and workflow scheduling.",
-    description: "Self-employed blogger & writer in Schenectady, NY (June 2024 – Present). Conducts in-depth research, drafts, edits, and publishes digital articles and structured documentation across online platforms using advanced AI tools while adhering to strict content schedules.",
+    tagline: "Operations management, database maintenance, SEO auditing pipelines, and digital record archiving.",
+    description: "Manages digital platform operations, database maintenance, and technical publishing workflows as a self-employed operator in Schenectady, NY (June 2024 – Present). Implemented workflow standardization, content lifecycle management pipelines, automated SEO auditing, and digital record archiving across online platforms.",
     featured: false,
     imageColor: "linear-gradient(135deg, #f05a28 0%, #ff7d52 100%)",
-    tags: ["AI Research Tools", "Structured Documentation", "Publishing Workflows", "Bilingual"],
+    tags: ["Database Maintenance", "Content Lifecycle Management", "SEO Auditing Pipelines", "Digital Record Archiving", "Workflow Standardization"],
     githubUrl: "",
     liveUrl: personalInfo.socialLinks.linkedin,
-    metrics: ["Advanced AI Research", "Publishing Schedules", "Bilingual English/Bengali"],
+    metrics: ["SEO Auditing Pipelines", "Workflow Standardization", "Digital Record Archiving"],
     architecture: [
-      "Prompt engineering and AI text generation for rapid research synthesis.",
-      "Structured documentation workflows and content calendar management."
+      "Database maintenance and digital record archiving across structured online platforms.",
+      "Automated SEO auditing pipelines and content lifecycle management procedures.",
+      "Workflow standardization for technical publishing infrastructure and editorial schedules."
     ]
   }
 ];
@@ -165,18 +168,19 @@ export const projects = [
 export const experience = [
   {
     id: "exp-0",
-    role: "Self-Employed Blogger & Writer",
-    company: "Self-Employed",
+    role: "Operations & Digital Platform Administrator",
+    company: "Self-Employed (Digital Operations)",
     period: "June 2024 – Present",
     location: "Schenectady, NY",
     type: "Work",
-    description: "Conduct in-depth research, draft, edit, and publish digital articles and structured documentation across online platforms. Maintain publishing workflows, adhere to content schedules, and communicate fluently in English and Bengali.",
+    description: "Manage end-to-end digital publishing operations, database maintenance, and technical content workflows. Execute content lifecycle management, SEO auditing pipelines, and digital record archiving while adhering to standardized publishing schedules.",
     achievements: [
-      "Utilize advanced AI research and text generation tools for rapid document synthesis.",
-      "Maintain publishing workflows and strict editorial schedules.",
-      "Open to permanent public sector (NYS HELPS / 55-b, Federal) and private sector positions."
+      "Implemented workflow standardization and content lifecycle management pipelines across multi-channel digital publishing platforms.",
+      "Executed routine database maintenance, digital record archiving, and automated SEO auditing pipelines to optimize system performance.",
+      "Utilized advanced AI research tools and data synthesis for technical documentation and publishing infrastructure.",
+      "Open to permanent public sector (NYS HELPS / 55-b, Federal) and private sector operations roles."
     ],
-    technologies: ["AI Research Tools", "Digital Documentation", "Publishing Workflows", "Bilingual Communication"]
+    technologies: ["Database Maintenance", "Content Lifecycle Management", "SEO Auditing Pipelines", "Digital Record Archiving", "Workflow Standardization"]
   },
   {
     id: "exp-1",
@@ -248,7 +252,7 @@ export const experience = [
     achievements: [
       "Qualified for NYS entry/mid-level administrative, clerical, and operations specialist roles (Salary Grade 06 to 18).",
       "Preferred locations: Schenectady, Albany, Saratoga, and Rensselaer counties.",
-      "Official Letter of Eligibility on file."
+      "Official NYS 55-b Letter of Eligibility available directly upon request."
     ],
     technologies: ["NYS Civil Service Law 55-b", "NYS HELPS Program", "Public Sector Eligibility"]
   },

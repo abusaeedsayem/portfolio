@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, ShieldCheck, Database, FileCheck, HeartHandshake, CheckCircle2, MapPin, Award, Car, Briefcase, Building2, Landmark } from 'lucide-react';
+import { User, ShieldCheck, Database, FileCheck, HeartHandshake, CheckCircle2, MapPin, Award, Car, Briefcase, Building2, Landmark, Mail } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export default function About() {
@@ -116,10 +116,21 @@ export default function About() {
             borderColor: 'rgba(240, 90, 40, 0.25)',
           }}
         >
-          <h3 style={{ fontSize: '1.3rem', marginBottom: '18px', color: 'var(--accent-primary)', display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <Award size={22} />
-            <span>Employment Eligibility & Career Focus Areas</span>
-          </h3>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '16px', marginBottom: '20px' }}>
+            <h3 style={{ fontSize: '1.3rem', color: 'var(--accent-primary)', display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
+              <Award size={22} />
+              <span>Employment Eligibility & Career Focus Areas</span>
+            </h3>
+
+            <a
+              href={personalInfo.eligibilityRequestEmail}
+              className="btn-secondary"
+              style={{ padding: '8px 16px', fontSize: '0.84rem', borderColor: 'var(--accent-primary)', color: 'var(--accent-primary)' }}
+            >
+              <Mail size={15} />
+              <span>Request NYS 55-b Eligibility Letter</span>
+            </a>
+          </div>
 
           <div
             style={{
@@ -135,7 +146,7 @@ export default function About() {
                 <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>NYS State Government</span>
               </div>
               <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', margin: 0, lineHeight: 1.5 }}>
-                Officially Certified NYS 55-b Candidate & NYS HELPS applicant (SG 06–18: Office Assistant, Clerical, Program Aide, Operations Specialist).
+                Officially Certified NYS 55-b Candidate & NYS HELPS applicant (SG 06–18). Official NYS 55-b Letter of Eligibility available directly upon request.
               </p>
             </div>
 
