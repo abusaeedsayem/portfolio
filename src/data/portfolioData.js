@@ -15,7 +15,7 @@ export const personalInfo = {
   phone: "(518) 707-8201",
   availability: "Open to NYS Civil Service (HELPS & 55-b), Federal & Private Sector Roles",
   civilServiceStatus: "Officially Certified NYS 55-b Eligible Candidate (NYS Civil Service Law Section 55-b) & NYS HELPS Applicant. Official NYS 55-b Letter of Eligibility available directly upon request.",
-  desiredPositions: "Operations Specialist / Administrative Support / Office Assistant / Clerical / Program Aide / QA Specialist (Salary Grade 06 to 18 & Private Equivalents)",
+  desiredPositions: "Operations Specialist / Administrative Support / Office Assistant / Clerical / Program Aide / QA Specialist (Salary Grade 09 to 18 & Private Equivalents)",
   desiredLocations: ["Schenectady", "Albany", "Saratoga", "Rensselaer", "Remote / Hybrid"],
   driverLicense: "Valid NYS Class D Driver License",
   workAuthorization: "Legally authorized to work in the US (No visa sponsorship required)",
@@ -37,7 +37,7 @@ export const personalInfo = {
   stats: [
     { label: "US Work Experience", value: "5+ Years" },
     { label: "NYS Civil Service Status", value: "55-b Certified" },
-    { label: "Target Salary Grades", value: "SG 06 - 18" },
+    { label: "Target Salary Grades", value: "SG 09 - 18" },
     { label: "Language Fluency", value: "Bilingual (4)" }
   ]
 };
@@ -252,7 +252,7 @@ export const experience = [
     type: "Certification",
     description: "Officially certified under the Governor's Program to Hire Individuals with Disabilities (NYS Civil Service Law Section 55-b) and applicant for NYS HELPS non-competitive civil service appointments.",
     achievements: [
-      "Qualified for NYS entry/mid-level administrative, clerical, and operations specialist roles (Salary Grade 06 to 18).",
+      "Qualified for NYS entry/mid-level administrative, clerical, and operations specialist roles (Salary Grade 09 to 18).",
       "Preferred locations: Schenectady, Albany, Saratoga, and Rensselaer counties.",
       "Official NYS 55-b Letter of Eligibility available directly upon request."
     ],

@@ -146,7 +146,7 @@ export default function About() {
                 <span style={{ fontSize: '0.92rem', fontWeight: 700, color: 'var(--text-primary)' }}>NYS State Government</span>
               </div>
               <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', margin: 0, lineHeight: 1.5 }}>
-                Officially Certified NYS 55-b Candidate & NYS HELPS applicant (SG 06–18). Official NYS 55-b Letter of Eligibility available directly upon request.
+                Officially Certified NYS 55-b Candidate & NYS HELPS applicant (SG 09–18). Official NYS 55-b Letter of Eligibility available directly upon request.
               </p>
             </div>
 
